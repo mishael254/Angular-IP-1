@@ -1,19 +1,16 @@
 <div class="container-fluid">
     <h3 class="text-center">add your quote below</h3>
     
-    <form>
+    <form (ngSubmit)= 'submitQuote()' #quoteForm='ngForm'>
         <div class="form-group">
            <label for="quote"></label>
-            <textarea class="form-control" id="quote" cols="60"  rows="6" required></textarea>
-            <button class="add-btn">add quote</button>
-            <div class="list">
-                <ul>
-                    <li>
-                        <input type="text" name="quoted">
-                        <button class="del-btn">Delete</button>
-                    </li>
-                </ul>
-            </div>
+           <input type="text" required class="form-control" id="name" [(ngModel)]="newQuote.name" name="name">
+           <button type="submit" class="btn btn-success">Add quote</button>
+        
+
+
+            
+        
         </div>
     </form>
 
