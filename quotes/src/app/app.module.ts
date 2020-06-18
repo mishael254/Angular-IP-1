@@ -6,17 +6,21 @@ import { AppComponent } from './app.component';
 import { QuoteFormComponent } from './quote-form/quote-form.component';
 import { FormsModule } from "@angular/forms";
 import { QuoteComponent } from './quote/quote.component';
+import { QuoteDetailComponent } from './quote-detail/quote-detail.component';
+import { StrikethroughDirective } from './strikethrough.directive';
 
 @NgModule({
   declarations: [
     AppComponent,
     QuoteFormComponent,
-    QuoteComponent
+    QuoteComponent,
+    QuoteDetailComponent,
+    StrikethroughDirective
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
