@@ -1,3 +1,7 @@
 export class Quote {
-    name:String
+    showDescription:Boolean;
+    constructor(public name:String)    {
+        this.showDescription=false;
+
+    }
 }
