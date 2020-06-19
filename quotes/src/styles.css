@@ -10224,8 +10224,6 @@ a.text-dark:hover, a.text-dark:focus {
 body  {
   background-color: orange;
   
-  background-image: url('./assets/image1.png');
-  background-repeat: no-repeat;
-  background-size: contain;
+  
 }
 /*# sourceMappingURL=bootstrap.css.map */
