@@ -2,6 +2,19 @@
     text-align: center;
 
 }
+.col-md-6   {
+    text-align: justify;
+    font-style: italic;
+    padding: 150px;
+}
+.social     {
+    text-align: center;
+    padding: 100px
+}
+.header     {
+    padding: 100px;
+}
+
 
     
 
